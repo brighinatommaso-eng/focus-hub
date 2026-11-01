@@ -1,0 +1,26 @@
+# KiCad
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.lck
+\#auto_saved_files#
+_autosave-*
+
+# Fusion / CAD temp
+*.f3d.bak
+
+# Firmware build
+.pio/
+build/
+.vscode/
+
+# Python / app
+__pycache__/
+*.pyc
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
