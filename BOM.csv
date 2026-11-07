@@ -1,12 +1,19 @@
-Item,Quantity,Unit price (USD),Total (USD),Link,Notes
-ESP32 dev board,1,,,,Already owned - price to be filled for reproducibility
-Display,1,,,,Already owned - model to be confirmed
-Rotary encoder with push button,1,,,,
-Push button,2,,,,
-WS2812 RGB LED,1,,,,
-Buzzer,1,,,,
-Custom PCB (JLCPCB),1,,,,
-Filament for case,1,,,,Pro-rated from spool
-Screws and standoffs,1,,,,
-Shipping,1,,,,
-TOTAL,,,,,
+Item,Qty used,Qty in pack,Price (USD),Link,Notes
+ESP32-S3-DevKitC-1 N16R8 (44 pin),1,1,9.00,https://www.aliexpress.com/item/1005005045724400.html,Main MCU - Wi-Fi + native USB for the PC app
+2.4in IPS TFT 240x320 SPI (ST7789),1,1,6.50,https://www.aliexpress.com/item/1005010509648514.html,Main display
+EC11 rotary encoder with push switch,1,5,3.00,https://www.aliexpress.com/w/wholesale-rotary%20encoder%20EC11.html,Main input - pick a 20mm shaft listing
+APA106 F5 5mm addressable RGB LED (WS2812 compatible),3,10,2.50,https://www.aliexpress.com/i/32945500333.html,Through-hole - easy to hand solder - Pomodoro/notification light bar
+Passive buzzer 12mm 5V,1,10,1.50,https://www.aliexpress.com/w/wholesale-passive-piezoelectric-buzzer.html,Passive so it can play different tones
+Tactile push button 6x6mm THT,2,2,0.10,,Already owned - generic 6x6mm 4-pin tactile switch
+NPN transistor 2N2222 (TO-92),1,50,1.50,https://www.aliexpress.com/w/wholesale-2n2222.html,Drives the buzzer
+1/4W metal film resistor kit (1k / 330R / 10k used),5,300,2.50,https://www.aliexpress.com/item/1005009394840174.html,Buzzer base / LED data / pull-ups
+Ceramic capacitor kit 100nF + electrolytic 10uF,5,-,2.50,https://www.aliexpress.com/w/wholesale-ceramic-capacitor-kit.html,Decoupling for LEDs and encoder
+Female header 2.54mm 1x20 (cut to fit),3,10,1.00,https://www.aliexpress.com/item/32996229462.html,Socket for the ESP32 (2x22) and display - cut strips to length
+Custom PCB 2-layer (JLCPCB 5pcs),1,5,2.00,https://jlcpcb.com,Designed in KiCad
+PCB shipping (JLCPCB to Luxembourg),1,1,5.00,https://jlcpcb.com,Cheapest shipping option
+M3 brass heat-set inserts,8,50,2.50,https://www.aliexpress.com/w/wholesale-m3-heat-insert.html,Melted into the printed case
+M3 screw kit (6-10mm),8,-,3.00,https://www.aliexpress.com/w/wholesale-m3-screw-kit.html,Mount PCB and lid
+Rubber feet (adhesive),4,20,1.50,https://www.aliexpress.com/w/wholesale-rubber-feet-adhesive.html,Anti-slip
+PLA filament for case (~120 g),1,-,2.00,,Pro-rated from a 1 kg spool (~15 USD)
+AliExpress shipping,1,1,0.00,,Free shipping (Choice) expected - update if not
+TOTAL,,,46.10,,Estimated - prices to be checked when ordering

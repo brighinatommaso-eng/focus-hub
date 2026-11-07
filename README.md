@@ -19,12 +19,12 @@ I get distracted by my phone every time I study: I unlock it to check the time o
 
 | Part | Purpose |
 |---|---|
-| ESP32 dev board | Main microcontroller, Wi-Fi |
-| Display | Timer, tasks, notifications |
-| Rotary encoder with push button | Menu navigation |
-| 2× push buttons | Quick actions |
-| RGB LED (WS2812) | Status / notification color |
-| Buzzer | Timer and notification alerts |
+| ESP32-S3-DevKitC-1 | Main microcontroller, Wi-Fi, native USB |
+| 2.4" IPS TFT (ST7789, 240×320) | Timer, tasks, notifications in color |
+| EC11 rotary encoder with push button | Menu navigation |
+| 2× 6×6 mm tactile buttons | Quick actions |
+| 3× APA106 addressable RGB LEDs | Pomodoro progress / notification color |
+| Passive buzzer | Timer and notification alerts |
 | Custom PCB | Connects everything, mounted with screws |
 | 3D printed case | Enclosure |
 
